@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>QuânĐỗ Store - HTML CSS And JS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="shortcut icon" href="img/logo.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header-- -->
+    <header id="header">
+        <div class="header-top-bar">
+            <span>Welcome to BíTeen Store</span>
+        </div>
+        <nav class="navigation">
+            <a href="index.html" class="logo">
+                <img src="img/logo.jpg" alt="logo">
+            </a>
+
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Product's</a></li>
+                <li><a href="">Testimoials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+
+            <div class="right-nav">
+                    <!-- <a href="#" class="nav-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a> -->
+                <a href="login.html" class="nav-search" >
+                    <i class="fa-solid fa-user"></i>
+                </a>
+                <a href="cart.html" class="nav-search">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Mainbanner -->
+
+    <section id="main-banner">
+        <div class="main-banner-box">
+            <img src="img/sbanner1.webp" alt="banner" />
+            <div class="main-banner-text">
+                <h1></h1>
+                <p></p>
+                <a href="#"></a>
+            </div>
+        </div>
+    </section>
+    <!-- --service-info -->
+    <div class="Container-cart">
+        <section class="what-we-provide">
+            <div class="w-info-icon">
+                <i class="fa-solid fa-plane"></i>
+            </div>
+
+            <div class="w-info-text">
+                <strong>Free Shipping</strong>
+                <p>Free train when buying</p>
+            </div>
+        </section>
+        <!-- --service-info 2 -->
+        <section class="what-we-provide">
+            <div class="w-info-icon">
+                <i class="fa-regular fa-comment"></i>
+            </div>
+
+            <div class="w-info-text">
+                <strong>Support 24/7</strong>
+                <p>Customer support anywhere</p>
+            </div>
+        </section>
+        <!-- --service-info 3-->
+        <section class="what-we-provide">
+            <div class="w-info-icon">
+                <i class="fa-solid fa-credit-card"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>100% payment</strong>
+                <p>Pay many options</p>
+            </div>
+        </section>
+    </div>
+  
+
+    <!-- --new-product -->
+    <section id="new_product">
+        <div class="new-product-heading">
+            <h2>Các sản phẩm bán chạy</h2>
+            <p>Sản phẩm được mọi người lựa chọn tin dùng</p>
+        </div>
+        <div class="product-container">
+
+            <!-- Product 1 -->
+            
+
+            <div class="product-item" data-price="10000000">
+              <img src="img/top1.jpg" alt="TUF Monitor">
+              <h3>TUF IPS Monitor, 180HZ </h3>
+              <p>3,500,000₫</p>
+              <button class="add-to-cart" data-name="TUF IPS Monitor, 180HZ (36 Months Warranty)" data-price="3500000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/top2.jpg" alt="CPU 2">
+              <h3>Intel Core I9 24 Cores, 32 Threads</h3>
+              <p>45,000,000₫</p>
+              <button class="add-to-cart" data-name="Intel Core I9 24 Cores, 32 Threads (36 Months Warranty)" data-price="45000000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/top3.jpg" alt="CPU 3">
+              <h3>NVIDIA RTX 3060 12GB GDDR6</h3>
+              <p>8,000,000₫</p>
+              <button class="add-to-cart" data-name="NVIDIA RTX 3060 12GB GDDR6 (24 Months Warranty)" data-price="8000000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/top4.jpg" alt="CPU 4">
+              <h3>Corsair Full Modular Power Supply (1500W)</h3>
+              <p>2,400,000₫</p>
+              <button class="add-to-cart" data-name="Corsair Full Modular Power Supply (1500W) (36 Months Warranty)" data-price="2400000">Add to Cart</button>
+          </div>
+          
+          <div class="new-product-heading">
+              <h2>New and Trending Products</h2>
+              <p>Explore top technology products</p>
+          </div>
+          <div class="product-item">
+              <img src="img/gpu1.jpg" alt="GPU 1">
+              <h3>NVIDIA RTX 4090 24GB GDDR6X</h3>
+              <p>60,000,000₫</p>
+              <button class="add-to-cart" data-name="NVIDIA RTX 4090 24GB GDDR6X (36 Months Warranty)" data-price="60000000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/gpu4.jpg" alt="GPU 4">
+              <h3>AMD Radeon RX 6800 XT 16GB GDDR6</h3>
+              <p>4,500,000₫</p>
+              <button class="add-to-cart" data-name="AMD Radeon RX 6800 XT 16GB GDDR6 (24 Months Warranty)" data-price="4500000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/ram1.jpg" alt="RAM 1">
+              <h3>Kingston Fury 16GB DDR4 3200MHz</h3>
+              <p>1,260,000₫</p>
+              <button class="add-to-cart" data-name="Kingston Fury 16GB DDR4 3200MHz (12 Months Warranty)" data-price="1260000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/ram2.jpg" alt="RAM 2">
+              <h3>Corsair Vengeance 32GB DDR5 5200MHz</h3>
+              <p>4,600,000₫</p>
+              <button class="add-to-cart" data-name="Corsair Vengeance 32GB DDR5 5200MHz (12 Months Warranty)" data-price="4600000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/ssd1.jpg" alt="SSD 1">
+              <h3>Samsung 970 EVO 1TB SatanIII</h3>
+              <p>1,700,000₫</p>
+              <button class="add-to-cart" data-name="Samsung 970 EVO 1TB SatanIII (36 Months Warranty)" data-price="1700000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/ssd2.jpg" alt="SSD 2">
+              <h3>WD Black SN850 2TB NVMe Gen4</h3>
+              <p>1,450,000₫</p>
+              <button class="add-to-cart" data-name="WD Black SN850 2TB NVMe Gen4 (36 Months Warranty)" data-price="1450000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/psu1.jpg" alt="PSU 1">
+              <h3>Cooler Master MWE 650 650W, 80+ Bronze</h3>
+              <p>1,890,000₫</p>
+              <button class="add-to-cart" data-name="Cooler Master MWE 650 650W, 80+ Bronze (12 Months Warranty)" data-price="1890000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/psu2.jpg" alt="PSU 2">
+              <h3>EVGA 500 W1 500W, 80+ White</h3>
+              <p>7,990,000₫</p>
+              <button class="add-to-cart" data-name="EVGA 500 W1 500W, 80+ White (36 Months Warranty)" data-price="7990000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/main1.jpg" alt="Mainboard 1">
+              <h3>MSI MAG X870 TOMAHAWK WIFI (DDR5)</h3>
+              <p>10,890,000₫</p>
+              <button class="add-to-cart" data-name="MSI MAG X870 TOMAHAWK WIFI (DDR5) (36 Months Warranty)" data-price="10890000">Add to Cart</button>
+          </div>
+          <div class="product-item">
+              <img src="img/main2.jpg" alt="Mainboard 2">
+              <h3>ASUS ROG Strix Z890-E GAMING WIFI (DDR5)</h3>
+              <p>17,690,000₫</p>
+              <button class="add-to-cart" data-name="ASUS ROG Strix Z890-E GAMING WIFI (DDR5) (36 Months Warranty)" data-price="17690000">Add to Cart</button>
+          </div>          
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <footer class="footer">
+        <div class="container">   
+          <div class="footer-top section">   
+            <div class="footer-brand">    
+              <a href="#" class="logo">BíTeen Store</a>    
+              <ul>
+                <li class="footer-list-item">
+                  <ion-icon name="location-sharp" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
+                  <address class="address">
+                  </address>
+                </li>
+                <li class="footer-list-item">
+                  <ion-icon name="call-sharp" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
+                </li>
+                <li>
+                  <ul class="social-list">
+                    <li>
+                      <a href="#" class="social-link">
+                        <ion-icon name="logo-facebook" role="img" class="md hydrated" aria-label="logo facebook"></ion-icon>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="social-link">
+                        <ion-icon name="logo-twitter" role="img" class="md hydrated" aria-label="logo twitter"></ion-icon>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="social-link">
+                        <ion-icon name="logo-tumblr" role="img" class="md hydrated" aria-label="logo tumblr"></ion-icon>
+                      </a>
+                    </li>   
+                  </ul>
+                </li>   
+              </ul>   
+            </div>  
+            <ul class="footer-list">   
+              <li>
+                <p class="footer-list-title">Help &amp; Information</p>
+              </li>   
+              <li>
+                <a href="#" class="footer-link">Help &amp; Contact Us</a>
+              </li>   
+              <li>
+                <a href="#" class="footer-link">Returns &amp; Refunds</a>
+              </li>   
+              <li>
+                <a href="#" class="footer-link">Online Stores</a>
+              </li>    
+              <li>
+                <a href="#" class="footer-link">Terms &amp; Conditions</a>
+              </li>   
+            </ul>   
+            <ul class="footer-list">   
+              <li>
+                <p class="footer-list-title">About Us</p>
+              </li>   
+              <li>
+                <a href="#" class="footer-link">About Us</a>
+              </li>    
+              <li>
+                <a href="#" class="footer-link">What We Do</a>
+              </li>   
+              <li>
+                <a href="#" class="footer-link">FAQ Page</a>
+              </li>   
+              <li>
+                <a href="#" class="footer-link">Contact Us</a>
+              </li>   
+            </ul>   
+            <div class="footer-list">  
+              <p class="footer-list-title">Newsletter</p>   
+              <form action="" class="footer-form">
+                <input type="email" name="email_address" placeholder="Your email address" required="" class="email-field">    
+                <button type="submit" class="footer-form-btn">
+                  <ion-icon name="arrow-forward" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
+                </button>
+              </form>  
+              <div class="wrapper">   
+                <a href="#" class="footer-link">Term &amp; Condition</a>
+                <a href="#" class="footer-link">Policy</a>
+                <a href="#" class="footer-link">Map</a>
+              </div>  
+            </div>    
+          </div>  
+          <div class="footer-bottom">
+            <p class="copyright">
+              © 2022 All Rights Reserved by <a href="#" class="copyright-link">codewithsadee</a>.
+            </p>   
+          </div>   
+        </div>
+      </footer>
+    
+
+</body>
+
+</html>
